@@ -1,6 +1,7 @@
 # SUNLU S9 PLUS WITH DRYBOX CONFIGURATION FILES
 
 The `printer.cfg` file is currently functional on my Sunlu S9 although only just.  It contains the pin mappings for the SUNLU S9 Plus including the Drybox. 
+
 This printer uses an AVR atmega2560 16MHz chip and is a Ramps v1.0 board. To use this config, the firmware should be compiled for the AVR atmega2560. 
 You can flash it over USB. Using kiauh: regular flashing method, make flash (default), USB.  More to come.
 
