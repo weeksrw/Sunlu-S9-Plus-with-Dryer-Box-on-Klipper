@@ -10,11 +10,11 @@ This is still a work in progress but I wanted to get the printer.cfg file up her
 
 
 # SUNLU S9 PLUS DRYER BOX
- The heater works well, however the humidity sensor is not configured correctly
- If you can get the humidity sensor working, please share
- however, the funtionality to run the Drybox is present
- You can add a SET_HEATER_TEMPERATURE HEATER=drybox TARGET=45 
- to Machine Start G-code and SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0 to the end g-code
+ The heater works well, however the humidity sensor is not configured correctly.
+ If you can get the humidity sensor working, please share.
+ The funtionality to run the Drybox, however, is present.
+ You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=45` 
+ to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code.
 
 
 
