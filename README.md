@@ -25,3 +25,10 @@ to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0`
 I found this post to be VERY HELPFUL in making the pin mappings. https://reprap.org/forum/read.php?13,837190 
 
 The Marlin souce code is available at http://3dsunlu.com/en/NewsDetail/3912708.html
+
+Here is a picture of the S9 motherboard ![image](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/a2d88f45-0b8a-4060-86cc-89763b9a97ca)
+
+
+# Some Extras
+## Direct Drive
+In case you haven't seen it yet, you can easily make your Bowden filament feed into a Direct Drive with this print.
