@@ -19,8 +19,8 @@ You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=50` (or whatever temp
 to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code to automatically activate the Dryer Box.
 
 # SOME EXTRAS
-I found this post to be VERY HELPFUL in making the pin mappings. https://reprap.org/forum/read.php?13,837190  
-The Marlin souce code is available at http://3dsunlu.com/en/NewsDetail/3912708.html  
+I found this post to be VERY HELPFUL (finally) in making the pin mappings. https://reprap.org/forum/read.php?13,837190  
+The Marlin souce code is available at https://3dsunlu.com/en/NewsList/10.html  
 
 Here is a picture of the S9 motherboard.  
 ![image](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/a2d88f45-0b8a-4060-86cc-89763b9a97ca)
