@@ -46,4 +46,4 @@ I used a very old android tablet running version 4.2.2 that was pretty much usel
 The Sunlu S9 uses two Z stepper motors but only has one driver. This means both stepper motors operate but that cannot be controlled individually. How do you guarantee that the gantry is actually level? If one of the steppers gets out of step or if a Z motor is manually turned, then the gantry can be crooked affecting your prints.  GerGO PRINT 3D has devised a macro that uses the bltouch to be able to test and level the gantry.  It is really helpful. If you download it, be sure to read my comment where I give the code fix required to use it on this machine. [Watch this video for more information](https://www.youtube.com/watch?v=1suV1QlMu0E). [This is the download](https://cults3d.com/en/3d-model/tool/z-markers-for-sovol-sv06-plus).
 
 ## Christian Vick's Klipper Macros
-more to come
+[Check out this video](https://www.youtube.com/watch?v=Xl8jR6yaWc8) talking about Adaptive Mesh. It is a way to speed up the bed mesh considerably.
