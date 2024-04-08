@@ -1,3 +1,5 @@
+# These are the original S9 settings I downloaded from the printer via M503 before starting to make any changes
+```
 SENDING:M503
 echo:  G21    ; Units in mm (mm)
 echo:; Filament settings: Disabled
@@ -42,3 +44,4 @@ echo:; Filament load/unload lengths:
 echo:  M603 L0.00 U100.00
 echo:; Filament runout sensor:
 echo:  M412 S3 D6.00
+```
