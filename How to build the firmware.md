@@ -1,6 +1,6 @@
 # How to flash the Klipper firmware to your Sunlu S9.
 First you need to have kiauh installed on your host mcu, plus Klipper, Moonracker, Mainsail and/or Fluidd and possibly KlipperScreen if you haven't already. 
-To do so, follow these instructions: https://github.com/dw-0/kiauh?tab=readme-ov-file#-download-and-use-kiauh  
+To do so, [follow these instructions](https://github.com/dw-0/kiauh?tab=readme-ov-file#-download-and-use-kiauh)  
 
 If for any reason you wish to return back to the Sunlu Marlin firmware, [follow these instructions.](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20reinstall%20Marlin%20firmware%20if%20needed.md)
 
