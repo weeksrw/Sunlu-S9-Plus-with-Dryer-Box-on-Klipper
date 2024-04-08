@@ -5,9 +5,9 @@ Digital I/O
 Marlin
  |
  |--Klipper
- |----|
- |----|--Marlin Analog
- |----|--|
+ |---|
+ |---|--Marlin Analog
+ |---|---|
  v---v---v Marlin Source Pin Name       Klipper Name                                Klipper Pin
 D00 PE0
 D01 PE1
