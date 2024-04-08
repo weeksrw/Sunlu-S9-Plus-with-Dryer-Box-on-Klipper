@@ -19,9 +19,10 @@ You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=50` (or whatever temp
 to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code to automatically activate the Dryer Box.
 
 # SOME EXTRAS
-I found this post to be VERY HELPFUL (finally) in making the pin mappings. https://reprap.org/forum/read.php?13,837190  
-The Marlin souce code is available at https://3dsunlu.com/en/NewsList/10.html  
-These are the [original S9 settings](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20reinstall%20Marlin%20firmware%20if%20needed.md) I downloaded from the printer via M503 before starting to make any changes.  
+* I found this post to be VERY HELPFUL (finally) in making the pin mappings. https://reprap.org/forum/read.php?13,837190  
+* Here is my [mapping of Marlin pins to Klipper pins](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/S9%20Plus%20Pinouts.md).  
+* The Marlin souce code is available at https://3dsunlu.com/en/NewsList/10.html  
+* These are the [original S9 settings](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20reinstall%20Marlin%20firmware%20if%20needed.md) I downloaded from the printer via M503 before starting to make any changes.  
 
 Here is a picture of the S9 motherboard.  
 ![image](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/a2d88f45-0b8a-4060-86cc-89763b9a97ca)
