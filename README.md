@@ -3,9 +3,9 @@
 The [printer.cfg](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/printer.cfg) file is currently functional on my Sunlu S9 Plus.  It contains the pin mappings for the SUNLU S9 Plus including the Drybox. 
 
 This printer uses an AVR atmega2560 16MHz chip and is a Ramps v1.0 board. To use this config, the Klipper firmware should be compiled for the AVR atmega2560. 
-You can flash it over USB using kiauh. [Instructions on how to create and load the Klipper firmware are here](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20build%20the%20firmware.md).
+You can flash it over USB using kiauh. [Instructions on how to create and load the Klipper firmware for the S9 are here](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20build%20the%20firmware.md).
 
-The S9 LCD uses a DWIN 480xRGBx272 DMG48270C043_03WTR but it is not supported by klipper so you will not be able to use the LCD display.  However you can setup a KlipperScreen on another device.  See below.
+The S9 LCD uses a DWIN 480xRGBx272 DMG48270C043_03WTR but it is not supported by Klipper so you will not be able to use the LCD display.  However you can setup a KlipperScreen on another device.  See below.
 
 I chose to use an old desktop computer (or laptop) running Mint or Ubuntu rather than purchase a Raspberry Pi and I used an old android device for the KlipperScreen.  I did the upgrade for $0.  See below.
 
@@ -15,7 +15,7 @@ This is still a work in progress but I wanted to get the printer.cfg file up her
 The heater on the connected Dryer Box works well, however the humidity sensor is not configured correctly.
 If you can get the humidity sensor working, please share.
 The funtionality to run the Drybox, however, is present.
-You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=45` 
+You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=50` (or whatever temp you want)
 to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code to automatically activate the Dryer Box.
 
 # SOME EXTRAS
