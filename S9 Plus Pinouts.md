@@ -1,4 +1,5 @@
 # These are the Klipper pinouts that I determined from the Marlin source code.
+Based off of this reference: https://reprap.org/forum/read.php?13,837190
 ```
 Digital I/O
 Marlin
