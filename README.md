@@ -14,9 +14,11 @@ This is still a work in progress but I wanted to get the printer.cfg file up her
 # SUNLU S9 PLUS DRYER BOX
 The heater on the connected Dryer Box works well, however the humidity sensor is not configured correctly.
 If you can get the humidity sensor working, please share.
-The funtionality to run the Drybox, however, is present.
-You can add a `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=50` (or whatever temp you want)
-to your Machine Start G-code and `SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code to automatically activate the Dryer Box.
+The funtionality to run the Drybox, however, is present. 
+You can add a  
+`SET_HEATER_TEMPERATURE HEATER=drybox TARGET=50` (or whatever temp you want)
+to your Machine Start G-code and  
+`SET_HEATER_TEMPERATURE HEATER=drybox TARGET=0` to the end g-code to automatically activate/deactivate the Dryer Box.
 
 # SOME EXTRAS
 * I found this post to be VERY HELPFUL (finally) in making the pin mappings. https://reprap.org/forum/read.php?13,837190  
