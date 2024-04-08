@@ -33,7 +33,7 @@ more to come
 
 ## Direct Drive
 In case you haven't seen it yet, you can easily change your S9 Plus Bowden filament feed into a Direct Drive for free.  It's pretty cool. [Check out this 3D print.](https://cults3d.com/en/3d-model/tool/support-direct-drive-sunlu-s9)
-You will need to extend the wires for both extruder and filament detector by 15-18 inches (38-45 cm) and then feed them both through the gantry wire loom. The size of the new filament tube is 80 mm.
+You will need to extend the wires for both the extruder and filament detector by 15-18 inches (38-45 cm) and then feed them both through the gantry wire loom. The size of the new filament tube is 80 mm.
 
 ## Christian Vick's Klipper Macros
 more to come
