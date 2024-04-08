@@ -7,7 +7,7 @@ You can flash it over USB using kiauh, see below.
 
 The S9 LCD uses a DWIN 480xRGBx272 DMG48270C043_03WTR but it is not supported by klipper so you will not be able to use the LCD display.  However you can setup a KlipperScreen on another device.  More to come.
 
-I chose to use an old desktop computer (or laptop) running Mint or Ubuntu rather than purchase a Raspberry Pi and I used an old android device for the KlipperScreen.  I did the upgrade for $0.  More to come.
+I chose to use an old desktop computer (or laptop) running Mint or Ubuntu rather than purchase a Raspberry Pi and I used an old android device for the KlipperScreen.  I did the upgrade for $0.  See below.
 
 Instructions on [how to create and load the Klipper firmware are here](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20build%20the%20firmware.md).
 
@@ -29,7 +29,18 @@ The Marlin souce code is available at http://3dsunlu.com/en/NewsDetail/3912708.h
 Here is a picture of the S9 motherboard.  
 ![image](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/a2d88f45-0b8a-4060-86cc-89763b9a97ca)
 
+## How to use an old computer instead of a Raspberry Pi as host
+more to come
+
+## How to use an old android device as a KlipperScreen
+more to come
 
 ## Direct Drive
 In case you haven't seen it yet, you can easily make your Bowden filament feed into a Direct Drive for free. [Check out this 3D print.](https://cults3d.com/en/3d-model/tool/support-direct-drive-sunlu-s9)
 You will need to extend the wires for both extruder and filament detector by 15-18 inches (38-45 cm) and then feed them both through the gantry wire loom. I measured the new size of the filament tube to be 80 mm.
+
+## Christian Vick's Klipper Macros
+more to come
+
+## GerGO PRINT 3D's Gantry Leveling Macro
+more to come
