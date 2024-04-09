@@ -1,7 +1,15 @@
 # How to use an old android device as a Klipper Screen
 I followed this YouTube video.
 
-[Use your old Android phone as a touchscreen for your 3D printer!](https://youtu.be/TcgTrkA8Oj0?si=0PBab_s7WIJYJUTM)
+[Use your old Android phone as a touchscreen for your 3D printer!](https://youtu.be/TcgTrkA8Oj0?si=0PBab_s7WIJYJUTM)  
+
+Here are some other YouTube videos that may be helpful.  
+[How to Run Klipper Screen on an Android Phone Connected to BigTreeTech's Manta M5P+CB1](https://www.youtube.com/watch?v=rdovXqrKivU)  
+
+### Using devices other than an android  
+[Touch Screen Remote For Your 3D Printer - Klipper Screen - Chris's Basement - 2024](https://www.youtube.com/watch?v=QCAFqK_juQs)  
+[Pad 7 - Klipper Touch Screen - BigTreeTech - Chris's Basement - 2023](https://www.youtube.com/watch?v=72ia-LH4vXQ)  
+[Multiple Klipper Instances on Pad7 or KlipperScreen](https://www.youtube.com/watch?v=Dxjh4iVUL-4)  
   
 ## Sources for the needed APK files
 SourceForge for APK files for XServer:  
@@ -12,7 +20,7 @@ https://apkpure.com/xserver-xsdl/x.org.server/download/1.20.41
 https://apkpure.com/autostart-no-root/com.autostart  
 
 I could not connect to APKMirror from a factory reset android device.  I also could not connect to the Play Store and had to side load the programs.
-The video describes how to do it all.
+The first video describes how to do it all.
 
 ## These are the instructions for the KlipperScreen install
 https://klipperscreen.readthedocs.io/en/latest/Android/
