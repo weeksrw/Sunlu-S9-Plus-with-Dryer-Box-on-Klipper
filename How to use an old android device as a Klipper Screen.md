@@ -16,7 +16,7 @@ SourceForge for APK files for XServer:
 https://sourceforge.net/projects/libsdl-android/files/apk/XServer-XSDL/  
 
 Or APKPure  
-https://apkpure.com/xserver-xsdl/x.org.server/download/1.20.41  
+https://apkpure.com/xserver-xsdl/x.org.server/download/1.20.41  I needed 1.20.41 because my android was 4.2.2  
 https://apkpure.com/autostart-no-root/com.autostart  
 
 I could not connect to APKMirror from a factory reset android device.  I also could not connect to the Play Store and had to side load the programs.
