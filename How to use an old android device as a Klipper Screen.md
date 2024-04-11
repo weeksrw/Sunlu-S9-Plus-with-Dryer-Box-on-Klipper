@@ -29,15 +29,12 @@ https://klipperscreen.readthedocs.io/en/latest/Android/
 3.	Choose USB(ADB) or WI-FI
     
   `sudo apt-get install android-tools-adb`  
-  Put your Android device in Debug mode.  
-  ```
-  cd ~/KlipperScreen/scripts
-  nano sample-android-adb.sh
+  `cd ~/KlipperScreen/scripts`  
+  `nano sample-android-adb.sh`  
   ---  In my case, I changed the display to 6003: `adb forward tcp:6100 tcp:6003`  
-  cp sample-android-adb.sh launch_KlipperScreen.sh
-  chmod +x ~/KlipperScreen/scripts/launch_KlipperScreen.sh
-  ```  
-
+  `cp sample-android-adb.sh launch_KlipperScreen.sh`  
+  `chmod +x ~/KlipperScreen/scripts/launch_KlipperScreen.sh`  
+  
 ## I had these problems:
 The YouTube video got me 99% there but I had a couple of problems. Here are the solutions  
 1. When I installed KlipperScreen on the PC, it booted directly to KlipperScreen instead of the desktop. To undo and go back to the desktop environment on the host machine:
@@ -48,14 +45,14 @@ Here are the docs: https://klipperscreen.readthedocs.io/en/latest/Installation/#
 * First, MAKE SURE you have enabled SSH on your machine BEFORE you install KlipperScreen or you will be starting all over again. Ask me how I know ;(  
 * Second, With the current (at least when I did it) KlipperScreen install, you must choose to install it as a service or not.
   1. If you choose not to install as a service, then the KlipperScreen will be startable from the Menu and does not start automatically.  It will be a window on your linux desktop.  Perhaps you could setup the adroid as a second linux screen and move the window there, but I haven't tried it, plus it would be a manual process.
-  2. If you choose to install as a service, be ready with another machine via SSH to quickly issue `sudo service KlipperScreen stop` or your machine will be blanking the screen and rebooting over and over (at least that's what happened for me).  With the service stopped, you can reset the display `sudo systemctl set-default graphical.target` and finish the adroid-adb setup  
+  2. If you choose to install as a service, you need to choose X for Xserver. Then be ready with another machine via SSH already setup to quickly issue `sudo service KlipperScreen stop` or your machine will be blanking the screen and rebooting over and over (at least that's what happened for me).  With the service stopped, you can reset the display `sudo systemctl set-default graphical.target` and finish the adroid-adb setup.  
 
 3. Although the video did it (almost) correctly, I had some problems getting the android to connect. It was confusing because there are two ways to connect to the android Xserver XSDL,
 either via USB (ADB) or WIFI which the video did not explain.
-The information on the android bluescreen is for connecting via WIFI. If you use USB, you ignore the information on the android.
-https://klipperscreen.readthedocs.io/en/latest/Android/  
-Also confusing is when you look at the KlipperScreen/scripts directory,
-there is a sample-android-adb.sh file and a sample-launch_klipperscreen.sh (lower case). The latest KlipperScreen install is just a bit different from the video. You now edit sample_android_adb.sh and copy it into launch_KlipperScreen (upper case). Just follow the directions carefully to create the correct launch_KlipperScreen.sh (upper case) and it will work.  In my case, I did edit the screen id to 6003 as described in the video.
+The information on the android bluescreen is for connecting via WIFI. If you use USB, you ignore the information on the android (except maybe the screen number 6003).
+`https://klipperscreen.readthedocs.io/en/latest/Android/`  
+Also confusing is when you look at the `KlipperScreen/scripts` directory,
+there is a `sample-android-adb.sh` file and a `sample-launch_klipperscreen.sh` (lower case). The latest KlipperScreen install is just a bit different from the video. You now edit `sample_android_adb.sh` and copy it into `launch_KlipperScreen.sh` (upper case). Just follow the directions carefully to create the correct `launch_KlipperScreen.sh` (upper case) and it will work.  In my case, I did edit the screen id to 6003 as described in the video.
 
 
 
