@@ -35,7 +35,7 @@ You will need to extend the wires for both the extruder and filament detector by
 Don't forget to change your retraction length.
 
 ## How to use an old computer instead of a Raspberry Pi as host
-I used an old XP Windows machine as the Klipper host and it works great. In fact, you can run multiple printers off of just one computer since it has more capabilities that a Raspberry Pi.
+I used an old XP Windows machine as the Klipper host and it works great. In fact, you can run multiple printers off of just one computer since it has more capabilities than a Raspberry Pi.
 [Here are the instructions that will guide you through the process](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20use%20an%20old%20computer%20as%20host.md).
 
 ## How to use an old android device as a KlipperScreen
