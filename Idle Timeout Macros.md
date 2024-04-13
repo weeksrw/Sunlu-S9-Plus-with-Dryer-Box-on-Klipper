@@ -1,4 +1,5 @@
-The Sunlu S9 Plus must be powered on for the dryer box to operate. The default idle_timeout is set to 10 minutes, causing the dryer box will shutoff before intended.  Here are some macros you can add to your printer.cfg to change the idle_timeout to the value you want.  If you leave the machine unattended, the dryer box will shutoff after the new timeout value that you can set with the macros.
+# Idle Timeout Macros
+The Sunlu S9 Plus must be powered on for the dryer box to operate. The default idle_timeout is set to 10 minutes causing the dryer box to shutoff before intended.  Here are some macros you can add to your printer.cfg to change the idle_timeout to the value you want. You can choose how long you want the dryer to operate and then the dryer box will shutoff after the new timeout value that you set.
 
 ```
 #####################################################################
