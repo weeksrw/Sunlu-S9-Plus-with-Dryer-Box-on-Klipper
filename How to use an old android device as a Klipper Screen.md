@@ -30,9 +30,9 @@ https://klipperscreen.readthedocs.io/en/latest/Android/
     
   `sudo apt-get install android-tools-adb`  
   `cd ~/KlipperScreen/scripts`  
-  `nano sample-android-adb.sh`  
-  ---  In my case, I changed the display to 6003: `adb forward tcp:6100 tcp:6003`  
   `cp sample-android-adb.sh launch_KlipperScreen.sh`  
+  `nano launch_KlipperScreen.sh`  
+  ---  In my case, I changed the display to 6003: `adb forward tcp:6100 tcp:6003`  
   `chmod +x ~/KlipperScreen/scripts/launch_KlipperScreen.sh`  
   
 ## I had these problems:
