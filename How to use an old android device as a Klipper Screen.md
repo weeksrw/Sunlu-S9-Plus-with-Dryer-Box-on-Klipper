@@ -54,6 +54,4 @@ The information on the android bluescreen is for connecting via WIFI. If you use
 Also confusing is when you look at the `KlipperScreen/scripts` directory,
 there is a `sample-android-adb.sh` file and a `sample-launch_klipperscreen.sh` (lower case). The latest KlipperScreen install is just a bit different from the video. You now edit `sample_android_adb.sh` and copy it into `launch_KlipperScreen.sh` (upper case). Just follow the directions carefully to create the correct `launch_KlipperScreen.sh` (upper case) and it will work.  In my case, I did edit the screen id to 6003 as described in the video.
 
-
-
-
+4. If it is still not connecting, enter `sudo systemctl restart KlipperScreen.service`
