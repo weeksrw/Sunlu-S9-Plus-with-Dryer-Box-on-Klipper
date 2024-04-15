@@ -9,7 +9,7 @@ The S9 LCD uses a DWIN 480xRGBx272 DMG48270C043_03WTR but it is not supported by
 
 I chose to use an old desktop computer (or laptop) running Mint or Ubuntu rather than purchase a Raspberry Pi and I used an old android device for the KlipperScreen.  I did the upgrade for $0.  See below.
 
-This is still a work in progress but I wanted to get the printer.cfg file up here so people can have access to it.
+Well, unfortunately I made a mistake plugging in a zero documentation chinese junk usb front panel on my computer and the S9 motherboard is dead now. So I guess this is as far as I go for now on this project. The printer was working great on klipper and I was in the tuning process when I messed up.  I hope this info will be able to help someone.  Cheers.
 
 # SUNLU S9 PLUS DRYER BOX
 The heater on the connected Dryer Box works well, however the humidity sensor is not configured correctly.
