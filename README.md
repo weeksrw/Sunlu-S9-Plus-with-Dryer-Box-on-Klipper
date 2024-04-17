@@ -26,6 +26,7 @@ to your Machine Start G-code and
 * The Marlin souce code is available at https://3dsunlu.com/en/NewsList/10.html  
 * These are the [original S9 M503 values](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/Sunlu%20S9%20Plus%20original%20Marlin%20M503%20output.md) I downloaded from the printer via M503 before starting to make any changes.
 * [Here are some macros](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/Idle%20Timeout%20Macros.md) that can keep the dryer box from shutting off too soon.
+* If you need to return back to the original Marlin firmware, [here are instructions how to do it.](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20reinstall%20Marlin%20firmware%20if%20needed.md)
 
 Here is a picture of the S9 motherboard.  
 ![image](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/a2d88f45-0b8a-4060-86cc-89763b9a97ca)
