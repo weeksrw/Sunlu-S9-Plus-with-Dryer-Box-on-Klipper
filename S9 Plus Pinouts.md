@@ -94,5 +94,5 @@ D81 PD4
 D82 PD5
 D83 PD6
 D84 PH2
-D85 PH7 DRYBOX_AUTO_FAN_PIN             [fan_generic drybox_fan]pin:                 PH7
+D85 PH7 DRYBOX_AUTO_FAN_PIN             [fan_generic drybox_fan] pin:                 PH7
 ```
