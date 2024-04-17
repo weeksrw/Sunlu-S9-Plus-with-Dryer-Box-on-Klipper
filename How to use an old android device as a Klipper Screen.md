@@ -42,18 +42,18 @@ The YouTube video got me 99% there but I had a couple of problems. Here are the 
 Here are the docs: https://klipperscreen.readthedocs.io/en/latest/Installation/#first-steps
 If you boot up to a tty login screen, Login and issue this command again.
 
-3. Although the video did it (almost) correctly, I had some problems getting the android to connect. It was confusing because there are two ways to connect to the android Xserver XSDL,
+2. Although the video did it (almost) correctly, I had some problems getting the android to connect. It was confusing because there are two ways to connect to the android Xserver XSDL,
 either via USB (ADB) or WIFI which the video did not explain.
 The information on the android bluescreen is for connecting via WIFI. If you use USB, you ignore the information on the android (except maybe the screen number 6003).
 https://klipperscreen.readthedocs.io/en/latest/Android/  
 Also confusing is when you look at the `KlipperScreen/scripts` directory,
 there is a `sample-android-adb.sh` file and a `sample-launch_klipperscreen.sh` (lower case). The latest KlipperScreen install is just a bit different from the video. You now edit `sample_android_adb.sh` and copy it into `launch_KlipperScreen.sh` (upper case) -or just edit the `lauch_KlipperScreen.sh` directly. Just follow the directions carefully to create the correct `launch_KlipperScreen.sh` (upper case) and it will work.  In my case, I did edit the screen id to 6003 as described in the video, but it also works to leave the screen at 6000 and then you don't have to edit the `launch_KlipperScreen.sh` file.
 
-4. I just had to reinstall my Mint machine and run through this whole process again and I have a few more comments. 
+3. I just had to reinstall my Mint machine and run through this whole process again and I have a few more comments. 
 * First, MAKE SURE you have enabled SSH on your machine BEFORE you install KlipperScreen or you will be reinstalling linux all over again. Ask me how I know ;(  
 * Second, With the current (at least when I did it) KlipperScreen install, you must choose to install it as a service or not.
   1. If you choose not to install as a service, then the KlipperScreen will be startable from the Menu and does not start automatically.  It will be a window on your linux desktop.  Perhaps you could setup the adroid as a second linux screen and move the window there, but I haven't tried it, plus it would be a manual process.  One potentially interesting observation is that the KlipperScreen started in portrait mode.
-  2. If you choose to install as a service, you need to choose X for Xserver. See step 4. below or else  be ready with another machine via SSH already setup to quickly issue `sudo service KlipperScreen stop` or your machine will be blanking the screen and rebooting over and over (at least that's what happened for me).  With the service stopped, you can reset the display `sudo systemctl set-default graphical.target` and finish the adroid-adb setup. (If you install KlipperScreen as a service, you can still start KlipperScreen as an app and comes up as a window on the desktop while the android is also working.) 
+  2. If you choose to install as a service, you need to choose X for Xserver. See step 4 below or else be ready with another machine via SSH already setup to quickly issue `sudo service KlipperScreen stop` or your machine will be blanking the screen and rebooting over and over (at least that's what happened for me).  With the service stopped, you can reset the display `sudo systemctl set-default graphical.target` and finish the adroid-adb setup. (If you install KlipperScreen as a service, you can still start KlipperScreen as an app and comes up as a window on the desktop while the android is also working.) 
 
 4. This is the sequence that worked best for me at the time I installed. Things can change:  
     1.  Use Kiauh to install everything except KlipperScreen.
