@@ -1,5 +1,5 @@
 # Idle Timeout Macros
-The Sunlu S9 Plus must be powered on for the dryer box to operate. The default idle_timeout is set to 10 minutes causing the dryer box to shutoff before intended.  Here are some macros you can add to your printer.cfg to change the idle_timeout to the value you want. You can choose how long you want the dryer to operate and then the dryer box will shutoff after the new timeout value that you set.  You can make the macros readily available by adding them to your Mainsail/Fluidd Dashboard.
+The Sunlu S9 Plus must be powered on for the dryer box to operate since Klipper is providing the control logic to run the dryer. The default Klipper idle_timeout is set to 10 minutes causing the dryer box to shutoff before intended.  Here are some macros you can add to your printer.cfg to change the idle_timeout to the value you want. You can choose how long you want the dryer to operate and then the dryer box will shutoff after the new timeout value that you set.  You can make the macros readily available by adding them to your Mainsail/Fluidd Dashboard.
 
 ```
 #####################################################################
