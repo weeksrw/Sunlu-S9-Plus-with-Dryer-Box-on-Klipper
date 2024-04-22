@@ -4,7 +4,7 @@ To do so, [follow these instructions](https://github.com/dw-0/kiauh?tab=readme-o
 
 If for any reason you wish to return back to the Sunlu Marlin firmware, [follow these instructions.](https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/blob/main/How%20to%20reinstall%20Marlin%20firmware%20if%20needed.md)
 
-Start the Klipper Installation And Update Helper program on you linux host.
+Start the Klipper Installation And Update Helper program on your linux host.
 `./kiauh/kiauh.sh`  
 
 <img src="https://github.com/weeksrw/Sunlu-S9-Plus-with-Dryer-Box-on-Klipper/assets/166277940/36095f14-3583-40b0-94e5-22f5b271bd48" width="600">  
