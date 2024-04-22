@@ -1,4 +1,5 @@
 # How to reinstall Marlin if needed
+## From Windows
 Use [Xloader](https://github.com/binaryupdates/xLoader) to transfer the firmware [Marlin.ino.hex](https://3dsunlu.com/en/NewsList/10.html) file to the printer over a USB cable.
 
 **_Open Xloader_**  
@@ -7,7 +8,7 @@ Use [Xloader](https://github.com/binaryupdates/xLoader) to transfer the firmware
 **COM port:**  It is probably not COM1.  Unplug the printer USB cable and look at the list of COM ports, then plug in the printer and see what new COM port has appeared. Use that one.  
 **Baud rate:** 115200  (250000 did not work for me)
 
-## Using avrdude on linux ( Can be done directly from your connected raspberry pi ) 
-Thanks to ropelletier
+## Using avrdude on linux 
+_Thanks to ropelletier for this information._  
+( Can be done directly from your connected raspberry pi )   
 * Install avrdude
-**  
