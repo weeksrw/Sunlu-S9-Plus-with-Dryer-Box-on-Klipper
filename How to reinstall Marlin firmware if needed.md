@@ -8,6 +8,6 @@ Use [Xloader](https://github.com/binaryupdates/xLoader) to transfer the firmware
 **Baud rate:** 115200  (250000 did not work for me)
 
 ## Using avrdude on linux ( Can be done directly from your connected raspberry pi ) 
-- Thanks to ropelletier
+Thanks to ropelletier
 * Install avrdude
 **  
